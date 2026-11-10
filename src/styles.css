@@ -8,3 +8,6 @@
 /* Individual portraits from the team panel of the generated image atlas. */
 .master-photo,.master-mini{display:block;width:100%;object-fit:cover;object-position:center 24%;background:none}
 .master-mini{object-position:center 22%}
+
+/* Preserve the square source cells of the service atlas on wide cards. */
+.service-photo,.choice-img{background-size:300% auto}
